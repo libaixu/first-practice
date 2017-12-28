@@ -1,0 +1,73 @@
+<!Doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>网页-产品详情页</title>
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/layout.css">
+	<link rel="stylesheet" href="css/icon.css">
+	<link rel="stylesheet" href="css/productDetail.css">
+	<link rel="stylesheet" href="css/header.css">
+</head>
+<body>
+    <!-- 图片列表 imgDiv -->
+	<div class="imgDiv">
+		<div class="bigImg" id="bigImgWrapId">
+			<div id="mouseMoveId"></div>
+		    <label class="zoomTool" style="bottom: 0;right: 0;"></label>
+			<img id="bigImgId" src="images/temp/temp07.jpg" />
+		</div>
+    	<div id="zoomImgId" class="zoomImg"></div>
+		<div class="smallImg">
+		    <label id="leftBtnId"></label>
+		    <div id="samllList">
+				<ul id="smallImgListId">
+					<!-- <li><img src="images/temp/temp08.jpg" /></li> -->
+				</ul>
+			</div>
+			<span id="rightBtnId"></span>
+		</div>
+	</div>
+	<div class="rightDiv">
+			<h1 id="h1Id"></h1>
+		    <h2 id="h2Id"></h2>
+		    <h3 id="h3Id"></h3>
+
+		    <div class="addressMenu">
+		    	<label>配送至</label>
+	    	    <div class="addressTitle">
+	    		    <div id="addressDivId">请选择您的地址</div>
+	    			<i></i>
+    			</div>
+	    	</div>
+	    	<!-- 省市县选择 start -->
+    		<div class="addressWrap" id="addressMenuId">
+    		    <span>选择新地址</span>
+		        <ul>
+		        	<li id="tabA" class="clickLi">请选择省</li>
+		        	<li id="tabB">请选择市</li>
+		        	<li id="tabC">请选择区</li>
+		        </ul>
+		        <div id="provinceId" class="addressItem"></div>
+		        <div id="cityId" class="addressItem"></div>
+		        <div id="areaId" class="addressItem"></div>
+    		</div>
+		    <!-- 省市县选择 end -->
+		    <!-- 购买数量 choose_btn start -->
+		    <div class="chooseBtn">
+		    	<div class="wrapInput">
+		    		<input type="text" id="buyNumId" class="buyNum"  value="1" />
+		    		<input type="button" id="addBtnId" class="btnAdd"  value="+" />
+		    		<input type="button" id="reduceBtnId" class="btnReduce"  value="-" />
+		    	</div>
+		    	<a href="cart.html" target="_blank" id="gotoshoppingcarBtnId" class="gotoshoppingcarBtn">加入购物车</a>
+		    </div>
+		    <!-- 购买数量 end -->
+	</div>
+</body>
+</html>
+<script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="js/config.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript" src="js/addressMenu.js"></script>
+<script type="text/javascript" src="js/productDetail.js"></script>

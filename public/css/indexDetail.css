@@ -1,0 +1,308 @@
+body {
+    background: #f6f6f6;
+}
+
+/*主体部分*/
+
+/*边部导航*/
+.subNav {
+    width: 191px;
+    height: 100%;
+    background: #6e6568;
+    float: left;
+}
+
+.subNav ul {
+    padding: 20px 0 0 0;
+}
+
+.subNav li {
+    width: 100%;
+    height: 32px;
+    position: relative;
+    cursor: pointer;
+}
+
+.subNav li:hover {
+    background: #888385;
+}
+
+.subNav li p {
+    font-size: 12px;
+    color: white;
+    line-height: 35px;
+    margin-left: 10px;
+    text-align: left;
+}
+
+.subNav li p:hover {
+    color: red;
+}
+
+/*隐藏菜单*/
+.subNav li div.popMenu {
+    display: none;
+    width: 500px;
+    height: 300px;
+    background: #888385;
+    position: absolute;
+    top: 0;
+    left: 185px;
+}
+
+.subNav li div.popMenu p {
+    color: white;
+    font-size: 30px;
+}
+
+.subNav li div.popMenu p:hover {
+    color: #f00;
+}
+
+.subNav li:hover div.popMenu {
+    display: block;
+    z-index: 100;
+}
+
+/*广告区*/
+.columnRight {
+    float: right;
+    width: 991px;
+    height: 483px;
+}
+
+/*轮播区*/
+.sliderWrap {
+    width: 100%;
+    height: 340px;
+    overflow: hidden;
+    position: relative;
+}
+
+.sliderWrap ul {
+    float: left;
+    width: 3964px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.sliderWrap li a {
+    float: left;
+    width: 991px;
+    height: 340px;
+}
+
+.sliderWrap li {
+    float: left;
+    width: 991px;
+    height: 340px;
+}
+
+.sliderWrap li a img {
+    z-index: 2;
+    width: 100%;
+    height: 340px;
+}
+
+.sliderWrap label, .sliderWrap span {
+    width: 30px;
+    height: 60px;
+    color: #fff;
+    line-height: 60px;
+    font-size: 30px;
+    text-align: center;
+    background: #666;
+    position: absolute;
+    cursor: pointer;
+    z-index: 5;
+
+    filter: alpha(opacity=70); /* IE */
+    -moz-opacity: 0.7; /* 老版Mozilla */
+    -khtml-opacity: 0.7; /* 老版Safari */
+    opacity: 0.7; /* 支持opacity的浏览器*/
+}
+
+.sliderWrap label {
+    position: absolute;
+    left: 0;
+    top: 140px;
+}
+
+.sliderWrap label:hover, .sliderWrap span:hover {
+    background: #999;
+
+    filter: alpha(opacity=70); /* IE */
+    -moz-opacity: 0.7; /* 老版Mozilla */
+    -khtml-opacity: 0.7; /* 老版Safari */
+    opacity: 0.7; /* 支持opacity的浏览器*/
+}
+
+.sliderWrap span {
+    position: absolute;
+    right: 0;
+    top: 140px;
+}
+
+/*sliderWrap ol*/
+.olbg {
+    width: 300px;
+    height: 21px;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    margin-left: -150px;
+    background: #999;
+    opacity: 0.7;
+    padding-left: 10px;
+    border-radius: 10px;
+}
+
+.sliderWrap ol {
+    width: 300px;
+    height: 21px;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    margin-left: -150px;
+    padding-left: 7px;
+    z-index: 5;
+}
+
+.sliderWrap ol li {
+    float: left;
+    width: 15px;
+    height: 15px;
+    margin: 3px 7px;
+    background: white;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.sliderWrap ol li:hover {
+    background: red;
+}
+
+.sliderWrap ol li.sel {
+    background: red;
+}
+
+/*双广告位*/
+.ad_bi {
+    width: 490px;
+    height: 131px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.ad_bi img {
+    width: 490px;
+    height: 131px;
+}
+
+/* 产品列表 */
+
+.empty {
+    width: 1192px;
+    height: 20px;
+    border-bottom: 4px dotted #6e6568;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.empty p {
+    width: 190px;
+    height: 44px;
+    background: #f6f6f6;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -84px;
+    font-size: 30px;
+    line-height: 44px;
+    text-align: center;
+}
+
+.product {
+    width: 100%;
+    height: 172px;
+}
+
+.product li {
+    float: left;
+    width: 389px;
+    height: 172px;
+    margin-right: 10px;
+    background-repeat: no-repeat;
+    background-position: 159px center;
+}
+
+/* css3过渡动画 */
+.product li img {
+    float: right;
+    width: 172px;
+    height: 172px;
+    margin-right: 20px;
+    transition: margin-right 0.2s ease-in;
+}
+
+.product li:hover img {
+    margin-right: 30px;
+}
+
+.product li.bg1 {
+    background-color: #adaab1;
+}
+
+.product li.bg2 {
+    background-color: #c2dbdf;
+}
+
+.product li.bg3 {
+    background-color: #f0c18d;
+}
+
+.product li dl {
+    width: 140px;
+    height: 100%;
+    position: relative;
+}
+
+.product li dl.bg1 {
+    background: #5c5565;
+}
+
+.product li dl.bg2 {
+    background: #498c95;
+}
+
+.product li dl.bg3 {
+    background: #e1a767;
+}
+
+.product li dl dt {
+    width: 103px;
+    height: 44px;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    position: absolute;
+    top: 47px;
+    left: 21px;
+
+    font-size: 20px;
+    line-height: 44px;
+    text-align: center;
+    color: white;
+}
+
+.product li dl dd {
+    width: 103px;
+    margin-top: 10px;
+    position: absolute;
+    left: 21px;
+    top: 91px;
+
+    font-size: 12px;
+    text-align: left;
+    color: white;
+}

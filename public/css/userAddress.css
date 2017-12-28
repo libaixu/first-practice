@@ -1,0 +1,101 @@
+body{
+	background: #f5f5f5;width: 1017px;
+}
+/* userAddressMenu */
+.userAddressMenu dl{
+	margin: 19px 0 0 22px;
+}
+.userAddressMenu dl dt{
+	font-size: 12px;font-weight: bold;width:auto;height: 26px;color: #323431;
+	line-height: 26px;text-align: left;
+}
+.userAddressMenu dl dd{
+	font-size: 12px;width:auto;height: 26px;color: #787878;
+	line-height: 26px;text-align: left;
+}
+.userAddressMenu dl dd.red{
+	color: #f00;
+}
+/* userAddressRight */
+.addressMenu{
+	margin: 20px 0 0 20px;
+}
+.addressMenu input{
+	float: left;
+	width: 112px;height: 26px;
+	background: url(../images/icon/icon12.png) repeat-x;
+	border: 1px solid #bdd8af;
+	border-radius: 3px;
+	font-size: 13px;font-weight: bold;font-style: normal;
+	line-height: 26px;text-align: center;
+	margin: 0 14px 0 0;
+	cursor: pointer;
+}
+.addressMenu p{
+	float: left;
+	height: 28px;
+	font-size: 12px;color: #9d9998;line-height: 28px;
+}
+.addressMenu p i{
+    font-style: normal;color: #73b249;
+}
+/* addressInfo */
+.addressInfo{
+	width: 830px;border: 1px solid #e6e6e6;
+	margin: 10px 0 0 20px;
+	position: relative;
+}
+.cancel label{
+	float: right;margin: 5px 5px 0 0; 
+   width: 15px;height: 16px;
+   background: url(../images/icon/icon14.png) no-repeat center;
+}
+.addressInfo .addressInfoTitle{
+	margin: 7px 0 17px 9px;
+}
+.addressInfo .addressInfoTitle label{
+	float: left;
+	font-size: 12px;font-weight: bold;color: #676664;
+}
+.addressInfo .addressInfoTitle i{
+	float: left;
+	width: 15px;height: 20px;line-height: 20px;
+	background: url(../images/icon/icon13.png) no-repeat;
+	margin: 0 23px 0 13px;
+}
+.addressInfo .addressInfoTitle span{
+	float: left;
+	width: 60px;height: 20px;
+	background: #ffab46;color: #fff;line-height: 20px;text-align: center;
+}
+/* addressInfoMain */
+.addressInfoMain{
+	padding-bottom: 10px;
+}
+.addressInfoMain li{
+	float: left;clear: both;
+	width: auto;height:auto;
+	font-size: 12px;line-height: 12px;
+}
+.addressInfoMain li label{
+	float: left;
+	width: 79px;height: auto;
+	text-align: right;
+	color: #999997;
+	font-size: 12px;line-height: 24px;
+}
+.addressInfoMain li span{
+	float: left;
+	width: 450px;height: auto;
+	text-align: left;
+	color: #555555;
+	font-size: 12px;line-height: 24px;
+}
+/* addressInfoLink */
+.addressInfoLink{
+	position: absolute;
+	bottom: 12px;right: 25px;
+}
+.addressInfoLink a{
+	margin-right: 10px;text-decoration: none;
+}

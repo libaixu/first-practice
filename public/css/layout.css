@@ -1,0 +1,30 @@
+/* 主页面 index */
+/*header*/
+.header{
+	width: 1192px;height: 172px;
+	margin: 0 auto;
+	position: relative;
+}
+/*主体部分*/
+.main{
+	width: 1192px;height: 483px;
+	margin: 0 auto;
+}
+/* 产品列表 */
+.productlist{width: 1192px;height: 20px;margin: 0 auto;}
+/* all page*/
+body{
+	width: 1192px;
+	margin: 0 auto;
+}
+/* userAddressWrap page */
+.userAddressMenu{
+	width: 130px;
+}
+.userAddressRight{
+	width: 880px;background: #fff;
+	margin: 15px 0 0 0;
+	padding-bottom: 20px;
+}
+
+

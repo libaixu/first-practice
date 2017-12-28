@@ -1,0 +1,85 @@
+/*header*/
+
+/*logo*/
+.header label{
+	width: 190px;height: 172px;
+	float: left;
+	background: url(../images/logo.png) no-repeat center white;
+}
+/*用户菜单*/
+.userMenu{
+	width: 1192px;height: 32px;background: #e3e4e5;
+	border-bottom: 1px solid #a6a5a5;
+}
+.userMenu label{
+	width: auto;height: 32px;
+	margin-left: 10px;padding-left: 19px;
+	line-height: 32px;
+	background: url(../images/icon/icon01.png) no-repeat left center;
+	color: #a6a5a5;
+}
+.userMenu ul{
+	float: right;margin-top: 7px;
+}
+.userMenu ul li{
+	display: inline;padding:0 5px;
+	border-right: 1px solid #999;
+	color: #a6a5a5;
+	cursor: pointer;
+}
+/*搜索框*/
+.searchTxt{
+	width: 491px;height: 35px;
+	background: white;
+	border: 1px solid #f10215;
+	position: absolute;top: 69px;left: 322px;
+	color:#a6a5a5;padding-left: 8px;
+	float: left;
+}
+.search{
+	width: 51px;height: 37px;
+	border: 0;
+	background: url(../images/icon/icon03.png) no-repeat center #f10215;
+	position: absolute;top: 69px;left: 822px;
+	float: left;
+	cursor: pointer;
+}
+/*购物车*/
+.shoppingButton{
+	float: left;
+	width: 190px;height: 36px;
+	position: absolute;top: 69px; right:97px;
+	background: url(../images/icon/icon04.png) no-repeat 48px 9px #ffffff;
+	border: 1px solid #a6a5a5;
+	color: #f10215;
+	cursor: pointer;
+}
+.shopNumber{
+	float: left;
+	width: 15px;height: 15px;
+	border-radius: 100%;
+	background: #f10215;
+	color:white;line-height: 15px;text-align: center;
+	position: absolute;top: 75px;right: 153px;
+}
+/*顶部导航*/
+.topNav{
+    position: absolute;bottom: 0;left: 220px;
+}
+.topNav span.strick{
+	float: right;
+	font-size: 1px;overflow: hidden;
+	width: 1px;height: 8px;margin:7px -9px 0 13px;padding: 0;
+	border-right: 1px solid #CCCCCC;
+}
+.topNav li{
+	float: left;
+	font-size: 16px;font-weight:bold;color:#555578;padding: 0 12px;
+	position: relative;
+	cursor: pointer;
+}
+.topNav li i{
+	width: 31px;height: 18px;
+    position: absolute;top: -12px;right: -17px;
+    background: url(../images/icon/icon05.png) no-repeat;
+}

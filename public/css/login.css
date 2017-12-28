@@ -1,0 +1,173 @@
+body{
+	width: 100%;
+}
+.loginPage{
+	width: 1005px;height: 80px;margin: 0 auto;
+	background: url(../images/logo2.png) no-repeat left center #fff;
+}
+.loginWrapBgc{
+	width: 100%;height: 475px;
+	background-color: #ffbc01;
+}
+.loginBgp{
+	width: 1005px;height: 475px;margin:0 auto;
+	background-image: url(../images/temp/temp11.jpg);
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+/* login */
+.login{
+	width: 346px;height: 362px;float: right;
+	margin: 40px 15px 0 0;
+	background: #fff;
+	position: relative;
+}
+/* loginTitle */
+.loginTitle{
+    width: 100%;height: 56px;
+    border-bottom: 1px solid #ededed;
+}
+.loginTitle label{
+	float: left;
+	width: 172px;height: 56px;
+	font-size: 16px;line-height: 56px;text-align: center;
+	cursor: pointer;
+}
+.loginTitle i{
+	float: left;
+	width: 1px;height: 18px;
+	font-size: 1px;overflow: hidden;background: #ededed;
+	margin-top: 20px;
+}
+.loginTitle span{
+	float: left;
+	width: 172px;height: 56px;
+	font-size: 16px;font-weight: bold;color: #f00;
+	line-height: 56px;text-align: center;
+	cursor: pointer;
+}
+/* loginUsename */
+.loginUsename{
+	width: 300px;height: 38px;
+	margin: 33px 0 0 20px;
+	border: 1px solid #959595;
+	position: relative;
+}
+.loginUsename i{
+	position: absolute;top: 10px;right: 10px;
+	width: 15px;height: 16px;
+	background: url(../images/icon/icon14.png) no-repeat;
+}
+.loginUsename label{
+	float: left;
+	width: 39px;height: 38px;
+	border-right: 1px solid #959595;
+	background-image: url(../images/icon/icon15.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #ebebeb;
+}
+.loginUsename input{
+   float: left;
+   width: 254px;height: 35px;
+   border: 0;
+   padding-left: 5px;
+   outline: none;
+}
+.loginPassword{
+	width: 300px;height: 38px;
+	margin: 33px 0 0 20px;
+	border: 1px solid #959595;
+	position: relative;
+}
+.loginPassword label{
+	float: left;
+	width: 39px;height: 38px;
+	border-right: 1px solid #959595;
+	background-image: url(../images/icon/icon16.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #ebebeb;
+}
+.loginPassword i{
+	position: absolute;top: 10px;right: 10px;
+	width: 15px;height: 16px;
+	background: url(../images/icon/icon14.png) no-repeat;
+}
+.loginPassword input{
+   float: left;
+   width: 254px;height: 35px;
+   border: 0;
+   padding-left: 5px;
+   outline: none;
+}
+/* loginSet */
+.loginSet{
+	width: 300px;height: 40px;
+	margin: 15px 0 0 20px; 
+}
+.loginSet input{
+	float: left;
+	margin: 3px 7px 0 0;
+}
+.loginSet label{
+	float: left;
+}
+.loginSet a{
+	float: right;
+	color: #363636;text-decoration: none;
+}
+.loginSet a:hover{
+	text-decoration: underline;
+}
+/* enter */
+.enter{
+	width: 325px;height: 34px;
+	margin-left: 20px;
+}
+.enter a{
+	border: 1px solid #ab1214;
+	float: left;
+	width: 300px;height: 34px;
+	background: #d21a1c;color:#fff;font-size: 20px;
+	line-height: 34px;text-decoration: none;
+	text-align: center;
+}
+/* loginFooter */
+.loginFooter{
+	width: 346px;height: 50px;
+	background: #fafafa;border-top: 1px solid #ededed;
+	position:absolute;left: 0;bottom: 0;
+}
+.loginFooter label{
+	float: left;margin: 16px 0 0 21px;
+	padding: 0 14px 0 25px;
+	background: url(../images/icon/icon17.png) no-repeat left 1px;
+	color: #363634;font-size: 12px;
+	cursor: pointer;
+	height: 20px;line-height: 20px;
+}
+.loginFooter i{
+	float: left;
+	width: 1px;height: 11px;background: #b9abb8;
+	font-size: 1px;overflow: hidden;
+	margin-top: 22px;
+}
+.loginFooter span{
+	float: left;margin: 16px 0 0 11px;
+	padding: 0 14px 0 25px;
+	background: url(../images/icon/icon17.png) no-repeat left center;
+	color: #363634;font-size: 12px;
+	cursor: pointer;
+	height: 20px;line-height: 20px;
+}
+.loginFooter a{
+	float: right;margin: 16px 21px 0 0;
+	background: url(../images/icon/icon17.png) no-repeat left bottom;
+	padding: 0 0 0 25px;
+	color: #8d0d0c;text-decoration: none;font-size: 12px;
+	height: 20px;line-height: 22px;
+}
+.loginFooter a:hover{
+	text-decoration: underline;
+}

@@ -1,0 +1,61 @@
+<!Doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>网页-购物车</title>
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/layout.css">
+	<link rel="stylesheet" href="css/icon.css">
+	<link rel="stylesheet" href="css/cart.css">
+	<link rel="stylesheet" href="css/header.css">
+</head>
+<body>
+    <!-- goo
+sTitle -->
+	<div class="goodsTitle">
+		<label>全部商品&nbsp;<i id="goodsTotalId">4</i></label>
+	</div>
+	<!-- cartHeader -->
+	<div class="cartHeader">
+	    <ul>
+			<li class="li1 ">
+				<!-- <input type="checkbox" checked class="allSelect fl" /> -->
+				<div class="checkboxStyle skinCheckBtn allSelect"></div>
+				<label>全选</label>
+			</li>
+			<li class="li2">商品</li>
+			<li class="li3">单价</li>
+			<li class="li4">数量</li>
+			<li class="li5">小计</li>
+			<li class="li6">操作</li>
+	    </ul>
+	</div>
+	<!-- cartBody -->
+	<div class="cartBody" id="cartBodyId">
+	    <!-- itemWrap start -->
+		<!-- itemWrap end -->
+	</div>
+	<!-- cartFoorer -->
+	<div class="cartFoorer">
+		<div class="cartFoorer_sord">
+			<!-- <input type="checkbox" checked class="allSelect fl" /> -->
+			<div class="checkboxStyle skinCheckBtn allSelect"></div>
+			<label>全选</label>
+			<p class="deleteSelect fl">删除选中商品</p>
+		</div>
+		<p class="selected">已选择<b id="checkedGoodsTotalId">4</b>件商品</p>
+		<div class="price">
+			<label>总价：</label>
+			<p class="p_1">￥<b style="font-size: 16px;" id="cartTotalMoneyId">2956.35</b></p>
+			<!-- <span>已节省：</span>
+			<p class="p_2">-￥26.35</p> -->
+		</div>
+		<a href="#" class="gotoSettlement">去结算</a>
+	</div>
+</body>
+</html>
+<script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="js/config.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript" src="js/cartListTpl.js"></script>
+<script type="text/javascript" src="js/cart.js"></script>

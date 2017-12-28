@@ -1,0 +1,36 @@
+/* 双广告位浮动 */
+.fl{float: left;}
+.fr{float: right;}
+.mt10{margin-top: 10px;}
+/* 用伪类清除浮动 */
+
+.cle:after{
+	content: ".";
+	display: block;height: 0;
+	clear: both;
+	visibility:hidden;
+}
+/* 放大镜绝对定位 */
+.zoomTool{
+	width: 33px;height: 33px;
+	background: url(../images/icon/icon09.png) no-repeat;
+	position: absolute;
+}
+
+/* checkbox样式 */
+.changeSkin{
+	float: left;
+}
+.checkboxStyle{
+	width: 24px;height: 24px;cursor: pointer;
+	float: left;margin: 3px 19px 0 0;clear: both;
+	background-image: url(../images/icon/icon18.png);
+	background-repeat: no-repeat;
+	background-position: 0 top;
+}
+.skinCheckBtn{
+	background-position: -48px top;
+}
+.allSelect{
+	margin: 14px 8px 0 11px;
+}

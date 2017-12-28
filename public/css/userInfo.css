@@ -1,0 +1,110 @@
+body{
+	background: #f5f5f5;width: 1017px;
+}
+/* userAddressMenu */
+.userInfoMenu dl{
+	margin: 19px 0 0 22px;
+}
+.userInfoMenu dl dt{
+	font-size: 12px;font-weight: bold;width:auto;height: 26px;color: #323431;
+	line-height: 26px;text-align: left;
+}
+.userInfoMenu dl dd{
+	font-size: 12px;width:auto;height: 26px;color: #787878;
+	line-height: 26px;text-align: left;
+}
+.userInfoMenu .red{
+	color: #f00;
+}
+/* userAddressRight */
+.userInfoRight{
+	margin: 14px 0 0 58px;
+	background: #fff;width: 870px;
+	padding-bottom: 20px;
+}
+/* userInfoTitle */
+.userInfoTitle{
+	margin: 20px 0 0 40px;
+	clear: both;
+}
+.userInfoTitle li{
+	float: left;margin-right: 19px;
+	color: #999;font-size: 12px;font-weight: normal;
+	cursor: pointer;
+}
+.userInfoTitle li.red{
+	color: #e4393c;border-bottom: 2px solid #e4393c;
+	font-weight: bold;
+}
+/* userInfoMain */
+.userInfoMain{
+	clear: both;
+	margin: 38px 0 0 40px;
+}
+.userInfoMain li{
+	float: left;clear: both;
+	margin: 0 0 37px 0;
+}
+.userInfoMain li span i{
+	color: #e4393c;font-style: normal;
+}
+.userInfoMain li span{
+	width: 87px;height: auto;float: left;
+	font-size: 12px;color: #999;text-align: right;
+}
+.userInfoMain li label{
+	float: left;
+	font-size: 12px;color: #666;text-align: left;
+}
+.userInfoMain li label strong{
+	font-weight: bold;
+}
+.userInfoMain li a{
+    float: left;font-size: 12px;color: #0081c5;
+    margin: 0 4px 0 13px;
+    text-decoration: none;
+
+}
+.userInfoMain li p{
+    float: left;font-size: 12px;color: #999;
+}
+.userInfoMain li .nickName{
+	float: left;
+	width: 155px;height: 28px;
+	border: 1px solid #999;
+	margin-top: -8px;
+	padding-left: 5px;
+}
+.userInfoMain li input[type="radio"]{
+	float: left;margin-top: 2px;
+}
+.userInfoMain li .labelFor{
+	float: left;cursor: pointer;
+	margin-right: 14px;
+}
+.userInfoMain li select{
+	float: left;width: 68px;height: 29px;
+	margin-top: -7px;
+}
+.userInfoMain li .birthday{
+	padding: 0 10px;
+}
+#intest{
+	float: left;
+}
+#intest h1{
+	font-size: 12px;color: #999;
+}
+#intest ul{
+	float: left;
+	width: 371px;margin-top: 3px;
+}
+#intest li{
+	float: left;clear: none;
+	padding: 10px 10px;border: 1px solid #999;margin: 5px;
+	color: #999;
+	cursor: pointer;
+}
+#intest li:hover{
+	background: #f00;color: #fff;
+}

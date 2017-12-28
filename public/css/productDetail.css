@@ -1,0 +1,337 @@
+/*body{background: #fffefd;}*/
+/* 图片列表 imgDiv */
+body {
+    background: #fff;
+}
+
+.imgDiv {
+    width: 450px;
+    height: 530px;
+    float: left;
+    position: relative;
+}
+
+.bigImg {
+    float: left;
+    width: 450px;
+    height: 450px;
+    border: 1px solid #f3f3f3;
+    cursor: pointer;
+    position: relative;
+}
+
+#mouseMoveId {
+    width: 225px;
+    height: 225px;
+    background: #CEBF14;
+    filter: alpha(opacity=50); /* IE */
+    -moz-opacity: 0.5; /* 老版Mozilla*/
+    opacity: 0.5; /* 支持opacity的浏览器*/
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    z-index: 9;
+
+}
+
+.zoomImg {
+    width: 450px;
+    height: 450px;
+    background: #ccc;
+    position: absolute;
+    top: 1px;
+    right: -451px;
+    z-index: 6;
+    display: none;
+    overflow: hidden;
+}
+
+.zoomImg img {
+    width: 900px;
+    height: 900px;
+    position: absolute;
+    top: 1px;
+    right: -451px;
+}
+
+.bigImg img {
+    width: 450px;
+    height: 450px;
+}
+
+.smallImg {
+    float: left;
+    width: 100%;
+    position: relative;
+}
+
+#samllList {
+    width: 311px;
+    height: 61px;
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.smallImg ul {
+    width: 380px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.smallImg ul li {
+    float: left;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #fff;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.smallImg ul li:hover {
+    border: 1px solid #f00;
+}
+
+.smallImg ul li img {
+    width: 50px;
+    height: 50px;
+}
+
+.smallImg label, .smallImg span {
+    width: 33px;
+    height: 57px;
+    margin-top: 2px;
+    position: absolute;
+    top: 1px;
+    cursor: pointer;
+}
+
+.smallImg label {
+    float: left;
+    background: url(../images/icon/icon06.png) no-repeat;
+    left: 0;
+}
+
+.smallImg span {
+    float: right;
+    background: url(../images/icon/icon07.png) no-repeat;
+    right: 0;
+}
+
+/* rightDiv */
+.rightDiv {
+    float: left;
+    width: 720px;
+    height: auto;
+    margin-left: 15px;
+}
+
+.rightDiv h1 {
+    color: #666666;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: normal;
+    margin-top: 10px;
+}
+
+.rightDiv h2 {
+    color: #e4393c;
+    font-size: 12px;
+    font-style: normal;
+    margin-top: 10px;
+}
+
+.addressMenu {
+    float: left;
+    width: 100%;
+    height: auto;
+}
+
+.addressMenu label {
+    float: left;
+    margin: 15px 0 0 20px;
+    letter-spacing: 8px;
+    color: #999999;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.addressTitle {
+    float: left;
+    font-size: 12px;
+    font-weight: normal;
+    color: #999999;
+    cursor: pointer;
+    background: #ffffff;
+    width: auto;
+    height: 26px;
+    margin: 10px 0 0 10px;
+    padding: 5px 10px 0 10px;
+    border: 1px solid #b2acac;
+    border-bottom: 0;
+    position: relative;
+}
+
+#addressDivId {
+    margin-right: 10px;
+}
+
+#addressDivId p {
+    float: left;
+    margin-right: 5px;
+}
+
+.addressTitle i {
+    position: absolute;
+    top: 9px;
+    right: 3px;
+    display: block;
+    width: 16px;
+    height: 9px;
+    background: url(../images/icon/icon08.jpg) no-repeat;
+}
+
+/* 省市县选择 */
+.addressWrap {
+    float: left;
+    width: 400px;
+    height: auto;
+    clear: both;
+    margin: -1px 0 0 90px;
+    border: 1px solid #b2acac;
+    display: none;
+}
+
+.addressWrap span {
+    float: left;
+    margin: 10px 0 0 10px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #666666;
+    clear: both;
+}
+
+.addressWrap ul {
+    float: left;
+    width: 380px;
+    height: 28px;
+    margin: 10px 0 0 10px;
+    border-bottom: 2px solid #e9b23a;
+    clear: both;
+}
+
+.addressWrap ul li {
+    float: left;
+    height: 17px;
+    width: auto;
+    margin: 0 20px 0 0;
+    padding: 5px 10px 5px 10px;
+    border: 1px solid #b2acac;
+    border-bottom: 0;
+    font-size: 12px;
+    font-weight: bold;
+    color: #061bbc;
+    cursor: pointer;
+    background: #fff;
+}
+
+.addressWrap ul li.clickLi {
+    height: 18px;
+    border: 2px solid #e9b23a;
+    border-bottom: 0;
+}
+
+.addressItem {
+    float: left;
+    clear: both;
+    margin: -2px 10px 10px 10px;
+}
+
+.addressItem p {
+    float: left;
+    margin: 10px 10px 0 0;
+    width: 73px;
+    height: auto;
+    overflow: hidden;
+    padding-left: 10px;
+}
+
+.addressItem p:hover {
+    background: #f00;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* 省市县选择 end */
+/* 购买数量 choose_btn start */
+.chooseBtn {
+    float: left;
+    clear: both;
+    width: 310px;
+    height: 50px;
+    margin: 20px 0 0 107px;
+    padding: 0;
+}
+
+.wrapInput {
+    float: left;
+    width: 61px;
+    height: 50px;
+    position: relative;
+}
+
+.buyNum {
+    width: 40px;
+    height: 48px;
+    border: 1px solid #cccccc;
+    margin: -1px;
+    text-align: center;
+}
+
+.btnAdd {
+    width: 18px;
+    height: 27px;
+    position: absolute;
+    top: -1px;
+    right: 3px;
+    margin: 0;
+    padding: 0;
+    border: 1px solid #cccccc;
+    cursor: pointer;
+}
+
+.btnReduce {
+    width: 18px;
+    height: 26px;
+    position: absolute;
+    bottom: 1px;
+    right: 3px;
+    margin: 0;
+    padding: 0;
+    border: 1px solid #cccccc;
+    cursor: pointer;
+}
+
+.btnAdd, .btnReduce {
+    background: #f1f1f1;
+}
+
+.gotoshoppingcarBtn {
+    display: block;
+    width: 157px;
+    height: 50px;
+    margin: -1px 0 0 70px;
+    background: #df3133;
+    color: #fff;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 50px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 购买数量 end */
+

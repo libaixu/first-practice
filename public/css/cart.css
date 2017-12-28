@@ -1,0 +1,212 @@
+.goodsTitle{
+	width: auto;height: 40px;
+}
+.goodsTitle label{
+	float: left;
+    width: auto;height: 40px;
+	color: #e3393a;font-size: 20px;font-weight:bold;line-height: 40px;
+	border-bottom: 3px solid #e3393a;
+}
+.goodsTitle label i{
+	color: #e3393a;font-size: 20px;font-weight:bold;font-style:normal;line-height: 40px;
+
+}
+/* cartHeader */
+.cartHeader{
+	margin: 2px 0 0 0;
+	width: auto;height: 48px;
+	background: #f3f3f3;
+	border: 1px solid #e9e9e9;
+}
+.cartHeader li{
+	float: left;
+	height: 48px;font-size: 12px;color: #66656a;line-height: 48px;
+}
+.cartHeader li input{
+	margin: 19px 8px 0 0;padding: 0;
+}
+.cartHeader li.li1{
+	margin-left: 0;
+}
+.cartHeader li.li2{
+	margin-left: 92px;
+}
+.cartHeader li.li3{
+	margin-left: 554px;
+}
+.cartHeader li.li4{
+	margin-left: 82px;
+}
+.cartHeader li.li5{
+	margin-left: 123px;
+}
+.cartHeader li.li6{
+	margin-left: 80px;
+}
+/* cartBody */
+/* lineDiv */
+.lineDiv{
+	width: 100%;height:1px;
+	border-bottom: 2px solid #aaaaaa;
+	margin-top: 15px;
+}
+/* itemWrap */
+.itemWrap{
+	width: auto;height: 143px;background: #fff4e8;
+	border: 1px solid #f1f1f1;
+	margin-top: 15px;
+}
+.item{
+	float: left;
+	margin: 20px 0 0 11px;
+}
+.item input.select{
+	float: left;clear: both;
+	margin: 3px 19px 0 0;
+}
+.item label{
+	float: left;
+	width: 90px;height: 90px;
+}
+.item label img{
+	width: 90px;height: 90px;
+}
+
+.goodsNema{
+	float: left;
+	width: 265px;height: 120px;
+	margin: 21px 0 0 14px;
+}
+.goodsNema p{
+	font-size: 12px;line-height: 20px;color: #333436;
+}
+.goodsInfo{
+	float: left;
+    width: 200px;height: 120px;
+    margin: 21px 0 0 14px;
+}
+.goodsInfo p{
+	font-size: 12px;line-height: 20px;color: #666668;
+}
+
+.priceUnit{
+	float: left;
+	width: 124px;height: 120px;
+	margin: 21px 0 0 0;
+	text-align: right;
+}
+.goodsNumWrap{
+	float: left;
+	width: 100px;height: 100px;
+	margin: 21px 0 0 51px;
+}
+.goodsNumWrap input.reduceBtn{
+	padding: 0;
+	width: 19px;height: 27px;
+	border: 1px solid #f1f1f1;
+	background: #fff;
+	cursor: pointer;
+}
+.goodsNumWrap input.goodsNum{
+	width: 53px;height: 25px;
+	border: 1px solid #f1f1f1;
+	text-align: center;
+	margin-left: -1px;
+}
+.goodsNumWrap input.addBtn{
+	padding: 0;
+	width: 19px;height: 27px;
+	border: 1px solid #f1f1f1;
+	font-size: 12px;
+	background: #fff;
+	margin-left: -1px;
+	cursor: pointer;
+}
+
+.priceSum{
+	float: left;
+	width: 103px;height: 100px;
+	text-align: right;font-weight: bold;
+	margin-top: 21px;
+}
+.delete{
+	float: left;
+	width: 30px;height: 100px;
+	margin: 21px 0 0 80px;
+	cursor: pointer;
+}
+/* cartFoorer */
+.cartFoorer{
+	width: 100%;height: 50px;
+	border: 1px solid #f1f1f1;
+	margin: 24px 0 12px 0;
+}
+.cartFoorer_sord{
+	float: left;
+	height: 100%;width: 713px;
+}
+.cartFoorer_sord input{
+	padding: 0;
+	margin: 19px 10px 0 10px;
+}
+.cartFoorer_sord label{
+	float: left;
+	margin: 16px 10px 0 0;
+	font-size: 12px;color: #999999;
+}
+.cartFoorer_sord p.deleteSelect{
+    margin: 16px 0 0 0;
+    font-size: 12px;color: #999999;
+    cursor: pointer;
+}
+.cartFoorer p.selected{
+	width: 142px;height: 36px;float: left;
+	color: #999999;font-size: 12px;
+	padding-top: 18px;
+}
+.cartFoorer p.selected b{
+	color: #f00;font-size: 16px;font-weight: bold;
+	text-decoration: none;
+	position: relative;
+}
+.cartFoorer p.selected img{
+	float: left;
+	width: 13px;height: 10px;
+	position: absolute;top: 0px;right: -54px;
+}
+/* price */
+.price{
+	float: left;margin: 0;
+	width: 200px;height: 50px;
+}
+.price label{
+	float: left;
+	width: 60px;height: 25px;
+	line-height: 25px;color: #999999;text-align: right;
+}
+.price p.p_1{
+	float: left;
+	width: 120px;height: 25px;
+	line-height: 25px;text-align: left;
+	color: #e5383c;font-weight: bold;font-size: 14px;
+	background: url(../images/icon/icon10.png) no-repeat right center;
+}
+.price span{
+	float: left;
+	width: 60px;height: 25px;
+	line-height: 25px;color: #999999;text-align: right;
+}
+.price p.p_2{
+	float: left;
+	width: 160px;height: 25px;
+	line-height: 25px;text-align: left;
+	color: #3a3838;
+}
+.cartFoorer a.gotoSettlement{
+	display: block;	float: right;
+	width: 116px;height: 50px;background: #df0716;
+	color: #fff;font-size: 23px;font-weight: bold;
+	text-align: center;line-height: 50px;
+	text-decoration: none;
+
+}
