@@ -10,7 +10,7 @@ $(function(){
 	// createSliderImg()
 	 var sliderConfig = {
 	 	toLeftBtn    : $('#toLeftBtn'),
-        sliderWrapId : $('#sliderWrapId'),
+    sliderWrapId : $('#sliderWrapId'),
 		imgDivId     : $('#imgDivId'),
 		toRightBtn   : $('#toRightBtn'),
 		iconListId   : $('#iconListId'),
